@@ -3,6 +3,9 @@ package cl.desafiolatam.indicadoreschile;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import cl.desafiolatam.indicadoreschile.model.Repositorio;
+
 /*
 Requerimientos:
     [] MVP
@@ -24,10 +27,14 @@ Requerimientos:
    7. [] Enlazar vista con presentador
  */
 public class MainActivity extends AppCompatActivity {
-
+    private Repositorio repositorio = new Repositorio();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        repositorio.loadinfo();
     }
+
+
 }
