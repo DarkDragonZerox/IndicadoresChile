@@ -10,18 +10,18 @@ Requerimientos:
     [] Retrofit (API)
     [] Recycleview
  Tareas por hacer
-    [] Crear clase modelo
+   4. [X] Crear clase modelo
           *POJO´s
           *RetrofitClient
-    [] Activar  databinding
-    [] Implemantar retrofit - recycleview
-    [] Crear clase presentador
+   1. [X] Activar  databinding
+   2. [X] Implemantar retrofit - recycleview
+   5. [X] Crear clase presentador
           *Interfaz presentador
-    [] Clase Adapter, viewholder, recycleview
-    [] Layout
+   6. [X] Clase Adapter, viewholder, recycleview
+   3. [X] Layout
           +Instanciar databinding
           +Configurar  databinding
-    [] Enlazar vista con presentador
+   7. [] Enlazar vista con presentador
  */
 public class MainActivity extends AppCompatActivity {
 
