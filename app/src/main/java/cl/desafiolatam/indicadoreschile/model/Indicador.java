@@ -1,9 +1,12 @@
 package cl.desafiolatam.indicadoreschile.model;
 
+import com.google.gson.annotations.SerializedName;
+
 public class Indicador {
 
     private String codigo;
     private  String nombre;
+    @SerializedName("unidad_medida")
     private  String unidadMedida;
     private String fecha;
     private float valor;
